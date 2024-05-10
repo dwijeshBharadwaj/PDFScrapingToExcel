@@ -1,6 +1,22 @@
 # PDFScrapingToExcel
-This project was envisioned to be crated using react and Django framework, but due to the simple functionality requirement ReactJS was not used.
-Create a new environment and do the source yourEnvironment bin/activate
-install the requirements.txt
-run the application by using the command python manage.py runserver on Mac OS and use py for windows machines
-** Due to the Confidentiality of the faculty records Unfortunately the PDF files cannot be uploaded, but you can see the code and do any hard code changes required **
+
+## Project Overview
+This project is designed to automate the extraction of faculty survey results from PDFs into a consolidated Excel file. Initially intended to incorporate React and Django frameworks, the project was ultimately developed using Django alone due to its straightforward functionality requirements.
+
+## Setup and Installation
+1. **Create and Activate a Virtual Environment:**
+   - For MacOS:
+     ```bash
+     python3 -m venv yourEnvironment
+     source yourEnvironment/bin/activate
+     ```
+   - For Windows:
+     ```bash
+     python -m venv yourEnvironment
+     .\yourEnvironment\Scripts\activate
+     ```
+
+2. **Install Required Packages:**
+   ```bash
+   pip install -r requirements.txt
+
