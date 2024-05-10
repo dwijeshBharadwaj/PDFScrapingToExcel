@@ -1,0 +1,98 @@
+2024-05-02 23:07:36,129 - INFO - /Users/dwijesh/Documents/reactdjango/blog/views.py changed, reloading.
+2024-05-02 23:11:22,912 - INFO - /Users/dwijesh/Documents/reactdjango/blog/views.py changed, reloading.
+2024-05-02 23:12:05,122 - INFO - /Users/dwijesh/Documents/reactdjango/blog/views.py changed, reloading.
+2024-05-02 23:12:28,039 - INFO - Excel file and log file successfully generated and downloaded
+2024-05-02 23:13:04,489 - INFO - /Users/dwijesh/Documents/reactdjango/blog/views.py changed, reloading.
+2024-05-02 23:13:18,914 - WARNING - Not Found: /upload/
+2024-05-02 23:13:29,692 - INFO - Excel file successfully generated and downloaded
+2024-05-02 23:13:45,459 - INFO - Excel file successfully generated and downloaded
+2024-05-02 23:15:34,122 - INFO - /Users/dwijesh/Documents/reactdjango/blog/views.py changed, reloading.
+2024-05-02 23:15:52,466 - INFO - Excel file and log file successfully generated and downloaded
+2024-05-02 23:16:15,865 - INFO - /Users/dwijesh/Documents/reactdjango/blog/views.py changed, reloading.
+2024-05-03 01:16:44,219 - ERROR - Error extracting text from PDF: EOF marker not found
+2024-05-03 01:16:44,220 - ERROR - Error extracting text from PDF: EOF marker not found
+2024-05-03 01:16:44,333 - ERROR - Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/dwijesh/Environments/django_env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dwijesh/Environments/django_env/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dwijesh/Documents/reactdjango/blog/views.py", line 137, in home
+    column_headings = extract_column_headings(texts_dict['text1'])
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dwijesh/Documents/reactdjango/blog/views.py", line 48, in extract_column_headings
+    QuestionHeading_Start = [i for i, a in enumerate(text) if a == "1D"][0]
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+2024-05-03 01:17:37,376 - INFO - Excel file and log file successfully generated and downloaded
+2024-05-03 01:44:11,500 - INFO - /Users/dwijesh/Documents/reactdjango/blog/views.py changed, reloading.
+2024-05-03 01:45:04,238 - INFO - Excel file and log file successfully generated and downloaded
+2024-05-03 01:51:28,755 - INFO - /Users/dwijesh/Documents/reactdjango/blog/views.py changed, reloading.
+2024-05-03 01:51:51,546 - INFO - Excel file and log file successfully generated and downloaded
+2024-05-03 01:55:32,875 - INFO - Excel file and log file successfully generated and downloaded
+2024-05-03 01:56:51,539 - INFO - Excel file and log file successfully generated and downloaded
+2024-05-03 01:58:01,520 - INFO - Excel file and log file successfully generated and downloaded
+2024-05-03 02:09:53,763 - INFO - Excel file and log file successfully generated and downloaded
+2024-05-03 02:13:11,878 - INFO - Excel file and log file successfully generated and downloaded
+2024-05-03 02:13:59,712 - INFO - /Users/dwijesh/Documents/reactdjango/blog/views.py changed, reloading.
+2024-05-03 02:17:14,052 - INFO - /Users/dwijesh/Documents/reactdjango/blog/views.py changed, reloading.
+2024-05-03 02:17:29,589 - INFO - Excel file and log file successfully generated and downloaded
+2024-05-03 02:17:45,257 - INFO - /Users/dwijesh/Documents/reactdjango/blog/views.py changed, reloading.
+2024-05-03 02:18:14,981 - INFO - Excel file and log file successfully generated and downloaded
+2024-05-03 12:29:27,592 - INFO - /Users/dwijesh/Documents/reactdjango/blog/views.py changed, reloading.
+2024-05-03 12:32:23,206 - INFO - Excel file and log file successfully generated and downloaded
+2024-05-03 12:32:23,328 - ERROR - Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/dwijesh/Environments/django_env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dwijesh/Environments/django_env/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dwijesh/Documents/reactdjango/blog/views.py", line 180, in home
+    messages.success(request, "Process completed successfully!")
+    ^^^^^^^^
+NameError: name 'messages' is not defined
+2024-05-03 12:33:03,316 - INFO - /Users/dwijesh/Documents/reactdjango/blog/views.py changed, reloading.
+2024-05-03 12:33:12,940 - INFO - Excel file and log file successfully generated and downloaded
+2024-05-03 12:34:23,748 - INFO - Excel file and log file successfully generated and downloaded
+2024-05-03 12:38:33,249 - INFO - Excel file and log file successfully generated and downloaded
+2024-05-03 12:38:42,872 - INFO - /Users/dwijesh/Documents/reactdjango/blog/views.py changed, reloading.
+2024-05-03 12:38:51,711 - INFO - Excel file and log file successfully generated and downloaded
+2024-05-03 12:39:33,423 - INFO - /Users/dwijesh/Documents/reactdjango/blog/views.py changed, reloading.
+2024-05-03 12:42:34,003 - INFO - /Users/dwijesh/Documents/reactdjango/blog/views.py changed, reloading.
+2024-05-03 13:10:58,431 - INFO - Excel file and log file successfully generated and downloaded
+2024-05-03 13:13:52,592 - INFO - /Users/dwijesh/Documents/reactdjango/blog/views.py changed, reloading.
+2024-05-03 13:14:08,962 - INFO - Excel file and log file successfully generated and downloaded
+2024-05-03 13:18:59,892 - INFO - /Users/dwijesh/Documents/reactdjango/blog/views.py changed, reloading.
+2024-05-03 13:19:28,332 - ERROR - Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/dwijesh/Environments/django_env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dwijesh/Environments/django_env/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dwijesh/Documents/reactdjango/blog/views.py", line 167, in home
+    zip_file.writestr('logs.log', log_content)
+                      ^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'log_content' where it is not associated with a value
+2024-05-03 13:20:04,087 - INFO - /Users/dwijesh/Documents/reactdjango/blog/views.py changed, reloading.
+2024-05-03 13:27:35,736 - INFO - /Users/dwijesh/Documents/reactdjango/blog/views.py changed, reloading.
+2024-05-03 13:28:06,789 - WARNING - Not Found: /upload/
+2024-05-03 13:28:22,936 - INFO - Excel file and log file successfully generated and downloaded
+2024-05-04 17:54:00,550 - INFO - /Users/dwijesh/Documents/reactdjango/blog/views.py changed, reloading.
+2024-05-04 17:54:06,797 - INFO - /Users/dwijesh/Documents/reactdjango/blog/views.py changed, reloading.
+2024-05-06 02:30:55,191 - INFO - Excel file and log file successfully generated and downloaded
+2024-05-06 02:44:40,987 - INFO - /Users/dwijesh/Documents/reactdjango/blog/views.py changed, reloading.
+2024-05-06 02:54:31,646 - INFO - Excel file and log file successfully generated and downloaded
+2024-05-06 10:52:06,709 - INFO - /Users/dwijesh/Documents/reactdjango/blog/views.py changed, reloading.
+2024-05-06 11:32:03,620 - INFO - /Users/dwijesh/Documents/reactdjango/blog/views.py changed, reloading.
+2024-05-06 11:32:27,348 - INFO - /Users/dwijesh/Documents/reactdjango/blog/views.py changed, reloading.
+2024-05-06 11:33:09,118 - INFO - /Users/dwijesh/Documents/reactdjango/blog/views.py changed, reloading.
+2024-05-06 11:33:51,225 - INFO - Excel file and log file successfully generated and downloaded
+2024-05-06 11:43:59,575 - INFO - Excel file and log file successfully generated and downloaded
+2024-05-06 11:52:51,401 - INFO - /Users/dwijesh/Documents/reactdjango/blog/views.py changed, reloading.
+2024-05-06 11:54:29,973 - INFO - Excel file and log file successfully generated and downloaded

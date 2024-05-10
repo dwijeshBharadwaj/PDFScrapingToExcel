@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Files</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'img/style.css' %}">
+</head>
+<body style="background-image: url('{% static 'img/lcb.webp' %}'); background-size: cover; background-position: center;">
+    <div class="container">
+        <h1>Upload Files</h1>
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            <input type="file" name="files" id="files" multiple>
+            <button type="submit">Extract</button>
+        </form>
+    </div>
+</body>
+</html>
+
+
+
+
